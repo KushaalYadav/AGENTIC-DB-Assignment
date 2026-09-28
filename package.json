@@ -1,0 +1,13 @@
+{
+  "name": "client-agent-assignment",
+  "version": "1.0.0",
+  "description": "Agentic data visualization assignment",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "init-db": "cd backend && npm run init-db"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
